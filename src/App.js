@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/hello' element={<h1>Hello!</h1>} />
-        <Route path="/" element={<Home />} />
+        <Route path="/react-app-nomad" element={<Home />} />
         <Route path="/movie/:id" element={<Detail />} />
       </Routes>
     </BrowserRouter>
